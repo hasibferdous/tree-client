@@ -14,13 +14,18 @@ import slide6 from "../../../assets/slide06.jpg"
 import slide7 from "../../../assets/slide07.jpg"
 import slide8 from "../../../assets/slide08.jpg"
 import slide9 from "../../../assets/slide09.jpg"
+import SectionTitle from '../../../components/SectionTilte/SectionTitle';
 
 
 const Category = () => {
     return (
-    <>
-    <h1 className='text-center text-4xl font-extrabold mt-11'>Order Now !</h1>
-    <Swiper
+        <section>
+            <SectionTitle
+                subHeading={"Order in-between 07:00 am to 09:00 pm"}
+                heading={"Order Now"}
+            ></SectionTitle>
+
+        <Swiper
         slidesPerView={4}
         spaceBetween={-300}
         centeredSlides={true}
@@ -68,7 +73,7 @@ const Category = () => {
             <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
         </SwiperSlide>
       </Swiper>
-    </>
+        </section>
     );
 };
 export default Category;
