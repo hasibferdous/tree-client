@@ -5,29 +5,68 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
+import slide1 from "../../../assets/slide10.jpg"
+import slide2 from "../../../assets/slide02.jpg"
+import slide3 from "../../../assets/slide03.jpg"
+import slide4 from "../../../assets/slide04.jpg"
+import slide5 from "../../../assets/slide05.jpg"
+import slide6 from "../../../assets/slide06.jpg"
+import slide7 from "../../../assets/slide07.jpg"
+import slide8 from "../../../assets/slide08.jpg"
+import slide9 from "../../../assets/slide09.jpg"
+
 
 const Category = () => {
     return (
     <>
+    <h1 className='text-center text-4xl font-extrabold mt-11'>Order Now !</h1>
     <Swiper
         slidesPerView={4}
-        spaceBetween={30}
+        spaceBetween={-300}
         centeredSlides={true}
         pagination={{
           clickable: true,
+        
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper  mt-16 mb-24"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide1} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide2} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide3} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide4} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide5} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide6} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide7} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide8} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img className='h-80 w-60' src={slide9} alt=''/>
+            <h3 className='text-3xl text-center -ml-80 -mt-16 font-bold shadow-2xl '>Cactus</h3>
+        </SwiperSlide>
       </Swiper>
     </>
     );
