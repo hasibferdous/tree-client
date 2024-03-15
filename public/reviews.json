@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "location": "New York, USA",
+        "rating": 5,
+        "comment": "I ordered some trees for my backyard, and the delivery was quick and efficient. The trees were healthy and well-packaged. Highly recommend!"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "location": "Los Angeles, USA",
+        "rating": 4,
+        "comment": "Great selection of trees to choose from, and the delivery process was smooth. However, one of the trees arrived with a slightly damaged pot."
+    },
+    {
+        "id": 3,
+        "name": "David Johnson",
+        "location": "London, UK",
+        "rating": 3,
+        "comment": "Overall, satisfied with my order. However, the delivery took longer than expected, and one of the trees looked a bit wilted upon arrival."
+    }
+]
